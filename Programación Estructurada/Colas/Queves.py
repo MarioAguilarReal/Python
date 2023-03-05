@@ -51,21 +51,3 @@ class Queue:
             self.first = current.next
             self.length -= 1
 
-queue = Queue(2)
-print(queue)
-queue.enqueue(4)
-print(queue)
-queue.enqueue(7)
-print(queue)
-queue.enqueue(12)
-print(queue)
-queue.enqueue(41)
-print(queue)
-queue.dequeue()
-print(queue)
-queue.dequeue()
-print(queue)
-queue.dequeue()
-print(queue)
-queue.dequeue()
-print(queue)
